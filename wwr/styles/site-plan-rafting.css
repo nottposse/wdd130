@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+:root {
+    --primary-color: #0077A7;
+    --secondary-color: #D2B48C;
+    --accent1-color: #8F9779;
+    --accent2-color: #A63C3C;
+    --accent3-color: #E07A5F;
+
+    --heading-font: 'Monoton', 'sans serif';
+    --paragraph-font: 'Josefin Sans', 'sans serif';
+
+    --nav-background-color: #D2B48C;
+    --nav-link-color: #A63C3C;
+    --nav-hover-link-color: #0077A7;
+    --nav-hover-background-color: #8F9779;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
