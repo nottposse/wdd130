@@ -39,7 +39,10 @@ aside {
     color: rgb(31, 31, 31);
     text-align: center;
 }
+aside h2 {
+    position: absolute;
 
+}
 aside img {
     width: 200px;
     height: auto;
@@ -66,8 +69,7 @@ footer {
 }
 .overlay-heading {
     position: absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 65px;
+    right: 52px;
     color: white;
 }
