@@ -53,17 +53,22 @@ body {
 
 h1 {
     position: absolute;
+    display: block;
+    text-align: center;
+    width: 90%;
     top: .5em;
     left: 50%;
+    padding: 10px;
     transform: translate(-50%, -50%);
-    background-color: #d7edf687;
-    
+    z-index: 1;
+    color: #a02121;
+    background-color: #f2f6f762;
 }
 article {
     position: absolute;
-    top: 3em;
+    top: 4em;
     z-index: 1;
-    background-color: #d7edf687;
+    background-color: #d7edf695;
     color: #050505;
     padding: 40px;
     font-size: large;
