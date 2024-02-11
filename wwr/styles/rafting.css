@@ -178,4 +178,105 @@ footer {
 .hp, .triplinks {
     border: #006b95 2px solid;
 }
-  
+
+#company-info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    top: 3.5em;
+    z-index: 1;
+    background-color: #0b000045;
+    color: var(--nav-background-color);
+    padding: 40px;
+    font-size: large;
+    margin: 15px;
+    min-height: 415px;
+    margin-bottom: -20px;
+    font-weight: 1000;
+    border: 2px solid;
+}
+
+#map-container {
+    margin-top: 20px;
+    height: 300px; 
+    flex: 1;
+    margin-left: 20px;
+}
+
+#employee-profiles {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bec8caf1;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.employee {
+    text-align: center;
+}
+
+.employee img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.employee p {
+    font-weight: bold;
+}
+
+#contact-form {
+    margin-top: 5px;
+    background-color: #bec8caf1;
+    padding: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form select,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: var(--nav-hover-link-color);
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
